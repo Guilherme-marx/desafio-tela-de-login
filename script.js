@@ -17,45 +17,45 @@
 
 
 
-// var triangle = { a: 1, b: 2, c: 3};
+var triangle = { a: 1, b: 2, c: 3};
 
-// function ColoredTriangle() {
-//     this.color = "red";
-// }
+function ColoredTriangle() {
+    this.color = "red";
+}
 
-// ColoredTriangle.prototype = triangle;
+ColoredTriangle.prototype = triangle;
 
-// var Obj = new ColoredTriangle();
+var Obj = new ColoredTriangle();
 
-// for (var prop in Obj) {
-//     if ( Obj.hasOwnProperty(prop)) {
-//         console.log("obj." + prop + " = " + Obj[prop]);
-//     }
-// }
+for (var prop in Obj) {
+    if ( Obj.hasOwnProperty(prop)) {
+        console.log("obj." + prop + " = " + Obj[prop]);
+    }
+}
 
 
 
 // //____________________________________________________________________for await
 
 
-// var asyncIterable = {
-//     [Symbol.asyncIterator]() {
-//         return{
-//             i: 0,
-//             next(){
-//             if (this.i < 3) {
-//                 return Promise.resolve({value: this.i++, done: false});
-//             }
-//             return Promise.resolve({ done : true});
-//             }
-//         };
-//     }
-// };
-// (async function(){
-//     for await (let num of asyncIterable) {
-//         console.log(num);
-//     }
-// })();
+var asyncIterable = {
+    [Symbol.asyncIterator]() {
+        return{
+            i: 0,
+            next(){
+            if (this.i < 3) {
+                return Promise.resolve({value: this.i++, done: false});
+            }
+            return Promise.resolve({ done : true});
+            }
+        };
+    }
+};
+(async function(){
+    for await (let num of asyncIterable) {
+        console.log(num);
+    }
+})();
 
 //_______________________________________________________________________for of
 
