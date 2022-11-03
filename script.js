@@ -17,7 +17,7 @@
 
 
 
-var triangle = { a: 1, b: 2, c: 3};
+var triangle = { a: 1, b: 2, c: 3 };
 
 function ColoredTriangle() {
     this.color = "red";
@@ -28,7 +28,7 @@ ColoredTriangle.prototype = triangle;
 var Obj = new ColoredTriangle();
 
 for (var prop in Obj) {
-    if ( Obj.hasOwnProperty(prop)) {
+    if (Obj.hasOwnProperty(prop)) {
         console.log("obj." + prop + " = " + Obj[prop]);
     }
 }
@@ -40,18 +40,18 @@ for (var prop in Obj) {
 
 var asyncIterable = {
     [Symbol.asyncIterator]() {
-        return{
+        return {
             i: 0,
-            next(){
-            if (this.i < 3) {
-                return Promise.resolve({value: this.i++, done: false});
-            }
-            return Promise.resolve({ done : true});
+            next() {
+                if (this.i < 3) {
+                    return Promise.resolve({ value: this.i++, done: false });
+                }
+                return Promise.resolve({ done: true });
             }
         };
     }
 };
-(async function(){
+(async function () {
     for await (let num of asyncIterable) {
         console.log(num);
     }
@@ -73,8 +73,8 @@ var asyncIterable = {
 
 // algumas diferenças entre for in e for of são destacadas a seguir
 
-Object.prototype.ObjCustom = function () {};
-Array.prototype.ArrCustom = function () {};
+Object.prototype.ObjCustom = function () { };
+Array.prototype.ArrCustom = function () { };
 
 let iterable = [3, 5, 7];
 iterable.foo = "hello";
@@ -115,34 +115,79 @@ switch (expr) {
     default:
       console.log("Desculpe, estamos sem nenhuma " + expr + ".");
   }
-  
+
   console.log("Tem algo mais que você gostaria de levar?");
 
 
-  //_________________________________________________________________________________________________________________________________________________________________________________________________
+//_________________________________________________________________________________________________________________________________________________________________________________________________
 
- 
- 
-  var foo = 1;
-var output = 'Output: ';
-switch (foo) {
-    case 0:
-        output += 'Então ';
-    case 1:
-        output += 'Qual ';
-        output += 'É ';
-    case 2:
-        output += 'O Seu ';
-    case 3:
-        output += 'Nome';
-    case 4:
-        output += '?';
-        alert(output);
+
+
+//   var foo = 1;
+// var output = 'Output: ';
+// switch (foo) {
+//     case 0:
+//         output += 'Então ';
+//     case 1:
+//         output += 'Qual ';
+//         output += 'É ';
+//     case 2:
+//         output += 'O Seu ';
+//     case 3:
+//         output += 'Nome';
+//     case 4:
+//         output += '?';
+//         alert(output);
+//         break;
+//     case 5:
+//         output += '!';
+//         alert(output);
+//         break;
+//     default:
+//         alert('Favor escolher um número de 0 à 6!');
+//         console.log();
+// }
+
+
+
+
+
+
+function theTest(val) {
+    var answer = "";
+    switch( val ) {
+      case 1: case 2: case 3:
+        answer = "Low";
         break;
-    case 5:
-        output += '!';
-        alert(output);
+      case 4: case 5: case 6:
+        answer = "Mid";
         break;
+      case 7: case 8: case 9:
+        answer = "High";
+        break;
+      default:
+        answer = "Massive or Tiny?";
+    }
+    return answer;
+  }
+  
+  theTest(9);
+
+
+
+
+
+
+
+  var Animal = 'Girafa';
+switch (Animal) {
+    case 'Vaca':
+    case 'Girafa':
+    case 'Cachorro':
+    case 'Porco':
+        alert('Esse animal irá para Arca de Noé');
+        break;
+    case 'Dinossauro':
     default:
-        alert('Favor escolher um número de 0 à 6!');
+        alert('Esse animal não vai.');
 }
