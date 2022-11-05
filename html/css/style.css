@@ -1,0 +1,29 @@
+html,
+body {
+    margin: 10em 9em 0em 5em;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+}
+
+p {
+    font-size: 13px;
+    font-weight: 300;
+    margin: -2em 76em 5em 0em;
+    color: #a8a8a8;
+    font-family: 'Courier New', Courier, monospace;
+    /* text-align: justify; */
+}
+            
+h3 {
+    font-size: 55px;
+    font-weight: 900;
+    /*font-family: fantasy;*/
+}
+
+.email,
+.password,
+.forgot-pass,
+.remember {
+    font-size: 19px;
+    margin: 0px 0px 20px 0px;
+}
