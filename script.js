@@ -1,4 +1,3 @@
-
 //______________________________________________________________________________________________for in
 
 
@@ -51,7 +50,7 @@ var asyncIterable = {
         };
     }
 };
-(async function () {
+(async function() {
     for await (let num of asyncIterable) {
         console.log(num);
     }
@@ -73,8 +72,8 @@ var asyncIterable = {
 
 // algumas diferenças entre for in e for of são destacadas a seguir
 
-Object.prototype.ObjCustom = function () { };
-Array.prototype.ArrCustom = function () { };
+Object.prototype.ObjCustom = function() {};
+Array.prototype.ArrCustom = function() {};
 
 let iterable = [3, 5, 7];
 iterable.foo = "hello";
@@ -97,26 +96,26 @@ for (let i of iterable) {
 
 switch (expr) {
     case "Laranjas":
-      console.log("As laranjas custam $0.59 o quilo.");
-      break;
+        console.log("As laranjas custam $0.59 o quilo.");
+        break;
     case "Maçãs":
-      console.log("Maçãs custam $0.32 o quilo.");
-      break;
+        console.log("Maçãs custam $0.32 o quilo.");
+        break;
     case "Bananas":
-      console.log("Bananas custam $0.48 o quilo.");
-      break;
+        console.log("Bananas custam $0.48 o quilo.");
+        break;
     case "Cerejas":
-      console.log("Cerejas custam $3.00 o quilo.");
-      break;
+        console.log("Cerejas custam $3.00 o quilo.");
+        break;
     case "Mangas":
     case "Mamões":
-      console.log("Mangas e mamões custam $2.79 o quilo.");
-      break;
+        console.log("Mangas e mamões custam $2.79 o quilo.");
+        break;
     default:
-      console.log("Desculpe, estamos sem nenhuma " + expr + ".");
-  }
+        console.log("Desculpe, estamos sem nenhuma " + expr + ".");
+}
 
-  console.log("Tem algo mais que você gostaria de levar?");
+console.log("Tem algo mais que você gostaria de levar?");
 
 
 //_________________________________________________________________________________________________________________________________________________________________________________________________
@@ -155,23 +154,29 @@ switch (expr) {
 
 function theTest(val) {
     var answer = "";
-    switch( val ) {
-      case 1: case 2: case 3:
-        answer = "Low";
-        break;
-      case 4: case 5: case 6:
-        answer = "Mid";
-        break;
-      case 7: case 8: case 9:
-        answer = "High";
-        break;
-      default:
-        answer = "Massive or Tiny?";
+    switch (val) {
+        case 1:
+        case 2:
+        case 3:
+            answer = "Low";
+            break;
+        case 4:
+        case 5:
+        case 6:
+            answer = "Mid";
+            break;
+        case 7:
+        case 8:
+        case 9:
+            answer = "High";
+            break;
+        default:
+            answer = "Massive or Tiny?";
     }
     return answer;
-  }
-  
-  theTest(9);
+}
+
+theTest(9);
 
 
 
@@ -179,7 +184,7 @@ function theTest(val) {
 
 
 
-  var Animal = 'Girafa';
+var Animal = 'Girafa';
 switch (Animal) {
     case 'Vaca':
     case 'Girafa':
