@@ -1,8 +1,14 @@
-html,
-body {
+html
+{
     margin: 10em 9em 0em 5em;
-    background-color: #ffffff;
-    background-repeat: no-repeat;
+}
+
+body{
+  margin: 10em 5em 0em 5em;
+  background-image: url(/gradients_10.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 1065px; 
 }
 
 p {
@@ -28,4 +34,19 @@ h3 {
     margin: 0px 0px 20px 0px;
 }
 
-.img {}
+
+
+/* estilo dos input */
+
+.email{
+width: 2cm;
+color: #424242;
+font-weight:bolder ;
+font-family: 'Courier New', Courier, monospace;
+}
+.password{
+  width: 2cm;
+  color: #424242;
+  font-weight: bolder;
+  font-family:'Courier New', Courier, monospace ;
+}
