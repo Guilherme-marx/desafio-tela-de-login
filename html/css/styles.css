@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Lato:wght@300 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap');
+
+
+html {
+    margin: 10em 9em 0em 5em;
+
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #f8f8ec;
+    background: linear-gradient(to right, #154e26, #1b6832, #5db136, #6ef04e);
+    background-repeat: no-repeat;
+    display: initial;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: 1300px 1170px;
+    background-position-x: 16cm;
+    background-position-y: center;
+}
+
+h3 {
+    font-size: 90px;
+    /* font-weight: 900; */
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 100;
+    margin-bottom: 0.1em;
+    color: #23753c;
+}
+
+
+.email,
+.password,
+.forgot-pass,
+.remember {
+    margin: 0px 0px 20px 0px;
+}
+
+
+
+/* estilo dos input */
+
+label {
+    margin-top: 10px;
+    padding: 10px 0px;
+    color: rgb(68, 68, 68);
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.forgot-pass {
+    text-decoration: none;
+    color: #196406;
+    font-size: 15px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 900;
+}
+
+/* submit */
+.button {
+    background: linear-gradient(to top, #31a252, #6ecf42);
+    color: #ffffff;
+    height: 10PX;
+    font-size: 20px;
+    margin-left: 4.1cm;
+    margin-top: 2em;
+    line-height: 10px;
+    padding: 17px 40px;
+    border-radius: 40px;
+    width: auto;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Abril Fatface', cursive;
+    opacity: 85%;
+}
+
+
+/* remember me */
+.caption {
+    font-weight: 500;
+    opacity: 50%;
+    font-size: 15.6px;
+    cursor: pointer;
+}
+
+
+
+
+/* teste */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-size: 62, 5%;
+}
+
+
+
+.form_label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 0rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+    transform: translateY(0rem);
+}
+
+.form_input {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background-color: #31a252;
+    font-size: 1em;
+    margin-top: -1em;
+    padding: 1em 1em;
+    border-radius: 0.2rem;
+    width: 30em;
+    margin-left: 0em;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+    opacity: 85%;
+}
+
+.form_input:placeholder-shown+.form_label {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(-4rem);
+    transform: translateY(-4rem);
+}
+
+input::placeholder {
+    font-weight: bold;
+    opacity: .5;
+    color: rgb(255, 255, 255);
+}
