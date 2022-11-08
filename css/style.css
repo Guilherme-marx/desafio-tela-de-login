@@ -144,14 +144,17 @@ label {
   transition: all 0.3s;
   cursor: pointer;
   opacity: 85%;
+
 }
 
 .form_input:placeholder-shown+.form_label {
-  opacity: 0;
+  opacity: 0%;
   visibility: hidden;
   -webkit-transform: translateY(-4rem);
   transform: translateY(-4rem);
+
 }
+
 
 input::placeholder {
   font-weight: bold;
