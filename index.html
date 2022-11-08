@@ -16,7 +16,7 @@
     -->
 
     <div>
-        <h3>Login</h3>
+        <h3>login</h3>
         <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et qui
             adipisci facilis sed laborum repellat ex non! Temporibus harum deleniti
@@ -24,24 +24,22 @@
             Consectetur.
         </p>
         <form action="" method="get" class="form">
-            <div class="email">
-                <label for="email">email</label>
-                <input type="email" class="form" placeholder="seu_email@mail.com" id="email" aria-required="true" />
+            <div class="form__group">
+                <input type="text" class="form_input" id="email" placeholder="digite seu email" required="true" />
+                <label for="email" class="form_label">digite seu email</label>
+                <input type="text" class="form_input" id="password" placeholder="digite sua senha" required="true" />
+                <label for="password" class="form_label">digite sua senha</label>
             </div>
-            <div class="password">
-                <label for="password">senha</label>
-                <input type="password" name="password" placeholder="digite sua senha" id="semha" aria-required="true" />
-            </div>
+
             <div class="remember">
-                <span class="caption">lembrar inforomaçoes</span>
+                <span class="caption">LEMBRAR INFORMAÇÕES</span>
                 <input type="checkbox" />
             </div>
             <div class="forgot-pass">
                 <a href="forgot.html" class="forgot-pass">Esqueceu sua senha?</a>
             </div>
             <div>
-                <input type="submit" form="formnovalidate" />
-                <a href="#" class="BUTTON_BRQ">ENVIAR</a>
+                <a href="/html/signup.html" class="button">-ENVIAR-</a>
             </div>
         </form>
     </div>
