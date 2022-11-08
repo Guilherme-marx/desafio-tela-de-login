@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2? family= Lato:wght@300 & display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap');
@@ -12,7 +13,7 @@ body {
   height: 100vh;
   width: 100%;
   background-color: #f8f8ec;
-  background: linear-gradient(to right, #01233b, #02416d, #1e6495, #066699);
+  background: linear-gradient(to right, #154e26, #1b6832, #5db136, #6ef04e);
   background-repeat: no-repeat;
   display: initial;
   justify-content: center;
@@ -21,6 +22,15 @@ body {
   background-size: 1300px 1170px;
   background-position-x: 16cm;
   background-position-y: center;
+}
+
+h3 {
+  font-size: 90px;
+  /* font-weight: 900; */
+  font-family: 'Abril Fatface', cursive;
+  font-weight: 100;
+  margin-bottom: 0.1em;
+  color: #23753c;
 }
 
 p {
@@ -32,14 +42,6 @@ p {
   color: #a8a8a8;
   font-family: 'Fira Sans Condensed', sans-serif;
   text-align: justify;
-}
-
-h3 {
-  font-size: 90px;
-  /* font-weight: 900; */
-  font-family: 'Abril Fatface', cursive;
-  font-weight: 100;
-  margin-bottom: 0.1em;
 }
 
 .email,
@@ -66,28 +68,30 @@ label {
 
 .forgot-pass {
   text-decoration: none;
-  color: brown;
+  color: #196406;
   font-size: 15px;
   font-family: 'Fira Sans Condensed', sans-serif;
-  font-weight: 457;
+  font-weight: 900;
 }
 
 /* submit */
 .button {
-  background: #2c536463;
-  border: solid #337FED 0;
+  background: linear-gradient(to top, #31a252, #6ecf42);
   color: #ffffff;
   height: 10PX;
-  padding: 10px;
-  font-size: 16px;
+  font-size: 30px;
+  margin-left: 3cm;
+  margin-top: 4em;
   line-height: 10px;
-  border-radius: 10px;
+  padding: 17px 40px;
+  border-radius: 40px;
   width: auto;
   cursor: pointer;
   text-align: center;
   display: inline-block;
   text-decoration: none;
   font-family: 'Abril Fatface', cursive;
+  opacity: 85%;
 }
 
 
@@ -126,8 +130,8 @@ label {
 
 .form_input {
   font-family: 'Roboto', sans-serif;
-  color: rgb(255, 255, 255);
-  background-color: #1d4657ee;
+  color: #ffffff;
+  background-color: #31a252;
   font-size: 1em;
   margin: 0 auto;
   padding: 1em 1em;
@@ -139,6 +143,7 @@ label {
   border: none;
   transition: all 0.3s;
   cursor: pointer;
+  opacity: 85%;
 }
 
 .form_input:placeholder-shown+.form_label {
