@@ -5,6 +5,16 @@
 @import url('https://fonts.googleapis.com/css2? family= Lato:wght@300 & display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap');
 
+/*     fontes extras
+
+font-family: 'Poiret One', cursive;
+font-family: 'Yeseva One', cursive; 
+
+*/
+
+
+
+
 
 html {
     margin: 10em 9em 0em 5em;
@@ -14,7 +24,6 @@ html {
 body {
     height: 100vh;
     width: 100%;
-    background-color: #f8f8ec;
     background: linear-gradient(to right, #154e26, #1b6832, #5db136, #6ef04e);
     background-repeat: no-repeat;
     display: initial;
@@ -23,6 +32,8 @@ body {
     height: 100vh;
     background-size: 1300px 1170px;
     background-position-x: 16cm;
+    /* background-position-x: 18cm; */
+    /* background-position-y: 0.1px; */
     background-position-y: center;
 }
 
@@ -31,10 +42,22 @@ h3 {
     /* font-weight: 900; */
     font-family: 'Abril Fatface', cursive;
     font-weight: 100;
+    /* margin-left: 1em;
+  margin-top: 2em; */
     margin-bottom: 0.1em;
     color: #23753c;
 }
 
+p {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 4em;
+    margin-right: 85em;
+    margin-left: 0em;
+    color: #a8a8a8;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-align: justify;
+}
 
 .email,
 .password,
@@ -71,9 +94,9 @@ label {
     background: linear-gradient(to top, #31a252, #6ecf42);
     color: #ffffff;
     height: 10PX;
-    font-size: 20px;
-    margin-left: 4.1cm;
-    margin-top: 2em;
+    font-size: 30px;
+    margin-left: 3cm;
+    margin-top: 4em;
     line-height: 10px;
     padding: 17px 40px;
     border-radius: 40px;
@@ -86,6 +109,10 @@ label {
     opacity: 85%;
 }
 
+.button:hover {
+    cursor: copy;
+    background: linear-gradient(to top, #6ecf42, #31a252);
+}
 
 /* remember me */
 .caption {
@@ -125,7 +152,7 @@ label {
     color: #ffffff;
     background-color: #31a252;
     font-size: 1em;
-    margin-top: -1em;
+    margin: 0 auto;
     padding: 1em 1em;
     border-radius: 0.2rem;
     width: 30em;
@@ -136,17 +163,39 @@ label {
     transition: all 0.3s;
     cursor: pointer;
     opacity: 85%;
+
 }
 
 .form_input:placeholder-shown+.form_label {
-    opacity: 0;
+    opacity: 0%;
     visibility: hidden;
     -webkit-transform: translateY(-4rem);
     transform: translateY(-4rem);
+
 }
+
 
 input::placeholder {
     font-weight: bold;
     opacity: .5;
     color: rgb(255, 255, 255);
 }
+
+/* animação com css */
+
+/* p {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+} */
