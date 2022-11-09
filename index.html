@@ -14,10 +14,6 @@
     - Delimitar as tags semanticas
     - Definir as duas sessões da tela
     -->
-    <!-- <h1 style="position:unset ;">seja bem vindo!</h1>
-    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dicta possimus, molestiae deleniti,
-        eveniet quisquam, quidem quas atque neque laborum quasi distinctio quaerat excepturi magni quia
-        deserunt. Ex, est deleniti?</span> -->
     <div>
 
         <h3>login</h3>
@@ -27,11 +23,12 @@
             voluptatem dolores, eaque molestias illum unde reiciendis nemo illo!
             Consectetur.
         </p>
-        <form action="" method="get" class="form">
+        <form action="signup.html" method="get" class="form">
             <div class="form__group">
-                <input type="text" class="form_input" id="email" placeholder="digite seu email" required="true" />
+                <input type="email" class="form_input" id="email" placeholder="digite seu email" required />
                 <label for="email" class="form_label"></label>
-                <input type="text" class="form_input" id="password" placeholder="digite sua senha" required="true" />
+                <input type="password" class="form_input" id="password" placeholder="digite sua senha"
+                    required="true" />
                 <label for="password" class="form_label"></label>
             </div>
 
@@ -43,7 +40,7 @@
                 <a href="forgot.html" class="forgot-pass">Esqueceu sua senha?</a>
             </div>
             <div>
-                <a href="/html/signup.html" class="button">ENVIAR</a>
+                <button type="submit" class="button">ENVIAR</button>
             </div>
 
         </form>

@@ -24,7 +24,6 @@ html {
 body {
   height: 100vh;
   width: 100%;
-  background-color: #f8f8ec;
   background: linear-gradient(to right, #154e26, #1b6832, #5db136, #6ef04e);
   background-repeat: no-repeat;
   display: initial;
@@ -106,6 +105,10 @@ label {
   opacity: 85%;
 }
 
+.button:hover {
+  cursor: copy;
+  background: linear-gradient(to top, #6ecf42, #31a252);
+}
 
 /* remember me */
 .caption {
@@ -173,3 +176,5 @@ input::placeholder {
   opacity: .5;
   color: rgb(255, 255, 255);
 }
+
+/* animação com css */
