@@ -9,7 +9,7 @@
 
 font-family: 'Poiret One', cursive;
 font-family: 'Yeseva One', cursive; 
-.
+
 */
 
 html {
@@ -28,18 +28,13 @@ body {
   height: 100vh;
   background-size: 1300px 1170px;
   background-position-x: 16cm;
-  /* background-position-x: 18cm; */
-  /* background-position-y: 0.1px; */
   background-position-y: center;
 }
 
 h3 {
   font-size: 90px;
-  /* font-weight: 900; */
   font-family: 'Abril Fatface', cursive;
   font-weight: 100;
-  /* margin-left: 1em;
-  margin-top: 2em; */
   margin-bottom: 0.1em;
   color: #23753c;
 }
@@ -176,34 +171,6 @@ input::placeholder {
   opacity: .5;
   color: rgb(255, 255, 255);
 }
-
-/* animação com css */
-
-/* p {
-  animation-duration: 1s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-} */
-
-
-
-
-
-
-
-
-
 
 
 /* cores */
