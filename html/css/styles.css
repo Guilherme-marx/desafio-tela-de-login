@@ -9,38 +9,26 @@
 
 font-family: 'Poiret One', cursive;
 font-family: 'Yeseva One', cursive; 
-.
+
 */
 
-
 html {
-    margin: 10em 9em 0em 5em;
-
+    width: 100%;
+    height: 100%;
 }
 
 body {
-    height: 100vh;
-    width: 100%;
+    padding-left: 6em;
     background: linear-gradient(to right, #154e26, #1b6832, #5db136, #6ef04e);
     background-repeat: no-repeat;
-    display: initial;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     background-size: 1300px 1170px;
-    background-position-x: 16cm;
-    /* background-position-x: 18cm; */
-    /* background-position-y: 0.1px; */
-    background-position-y: center;
+    background-position-x: 46em;
 }
 
 h3 {
     font-size: 90px;
-    /* font-weight: 900; */
     font-family: 'Abril Fatface', cursive;
     font-weight: 100;
-    /* margin-left: 1em;
-  margin-top: 2em; */
     margin-bottom: 0.1em;
     color: #23753c;
 }
@@ -49,20 +37,16 @@ p {
     font-size: 15px;
     font-weight: 300;
     margin-bottom: 4em;
-    margin-right: 85em;
+    margin-right: 95em;
     margin-left: 0em;
-    color: #a8a8a8;
+    color: #6e6e6e;
     font-family: 'Fira Sans Condensed', sans-serif;
     text-align: justify;
 }
 
-.email,
-.password,
-.forgot-pass,
-.remember {
-    margin: 0px 0px 20px 0px;
+form>* {
+    margin-bottom: 20px;
 }
-
 
 
 /* estilo dos input */
@@ -90,24 +74,20 @@ label {
 .button {
     background: linear-gradient(to top, #31a252, #6ecf42);
     color: #ffffff;
-    height: 10PX;
+    height: 55px;
+    width: 200px;
     font-size: 30px;
     margin-left: 3cm;
     margin-top: 4em;
-    line-height: 10px;
-    padding: 17px 40px;
     border-radius: 40px;
-    width: auto;
+    padding: auto;
     cursor: pointer;
-    text-align: center;
-    display: inline-block;
-    text-decoration: none;
+    border: none;
     font-family: 'Abril Fatface', cursive;
-    opacity: 85%;
 }
 
 .button:hover {
-    cursor: copy;
+    cursor: pointer;
     background: linear-gradient(to top, #6ecf42, #31a252);
 }
 
@@ -121,78 +101,89 @@ label {
 
 
 
-
-/* teste */
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-    font-size: 62, 5%;
-}
-
-
-
-.form_label {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
-    margin-left: 0rem;
-    margin-top: 0.7rem;
-    display: block;
-    transition: all 0.3s;
-    transform: translateY(0rem);
-}
-
 .form_input {
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
     background-color: #31a252;
     font-size: 1em;
-    margin: 0 auto;
     padding: 1em 1em;
     border-radius: 0.2rem;
     width: 30em;
-    margin-left: 0em;
-    display: block;
-    border-bottom: 0.3rem solid transparent;
     border: none;
-    transition: all 0.3s;
     cursor: pointer;
     opacity: 85%;
-
-}
-
-.form_input:placeholder-shown+.form_label {
-    opacity: 0%;
-    visibility: hidden;
-    -webkit-transform: translateY(-4rem);
-    transform: translateY(-4rem);
 
 }
 
 
 input::placeholder {
     font-weight: bold;
-    opacity: .5;
-    color: rgb(255, 255, 255);
+    opacity: 72%;
+    color: #ffffff;
 }
 
-/* animação com css */
 
-/* p {
-  animation-duration: 1s;
-  animation-name: slidein;
+hr {
+    width: 13.3cm;
+    margin-left: 1px;
 }
 
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%
-  }
+/* video */
 
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-} */
+
+
+/* cores */
+/*
+
+paleta 1
+.color1 { #f23e02 };
+.color2 { #fef5c8 };
+.color3 { #00988d };
+.color4 { #2c6b74 };
+.color5 { #013750 };
+
+
+
+paleta 2
+.color1 { #f8f8ec };
+.color2 { #aedd2b };
+.color3 { #066699 };
+.color4 { #0a5483 };
+.color5 { #02416d };
+
+
+
+paleta 3
+.color1 { #69d2e7 };
+.color2 { #a7dbd8 };
+.color3 { #e0e4cc };
+.color4 { #f38630 };
+.color5 { #fa6900 };
+
+
+
+paleta 4
+.color1 { #cc063e };
+.color2 { #e83535 };
+.color3 { #fd9407 };
+.color4 { #e2d9c2 };
+.color5 { #10898b };
+
+
+
+paleta 5
+.color1 { #4275B3 };
+.color2 { #91C3FF };
+.color3 { #78B4FF };
+.color4 { #B38430 };
+.color5 { #FFCF78 };
+
+
+
+paleta 6
+.color1 { #B38B42 };
+.color2 { #FFD991 };
+.color3 { #FFCF77 };
+.color4 { #306AB3 };
+.color5 { #78B3FF };
+*/
