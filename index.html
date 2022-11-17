@@ -17,36 +17,37 @@
     <div>
 
         <h3>login</h3>
-
         <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et qui
             adipisci facilis sed laborum repellat ex non! Temporibus harum deleniti
             voluptatem dolores, eaque molestias illum unde reiciendis nemo illo!
             Consectetur.
         </p>
-
         <form action="signup.html" method="get" class="form">
-            <!-- area de input -->
-            <div clssa="form__group" margin: 10px 0px>
+            <div class="form__group">
                 <input type="email" class="form_input" id="email" placeholder="digite seu email" required />
-            </div>
-            <br>
-            <div margin: 10px 0px>
+                <label for="email" class="form_label"></label>
                 <input type="password" class="form_input" id="password" placeholder="digite sua senha"
                     required="true" />
+                <label for="password" class="form_label"></label>
             </div>
-            <!-- fim da area de input 1-->
             <hr>
-            <div class="remember">
-                <span class="caption">LEMBRAR INFORMAÇÕES?</span>
-                <input type="checkbox" />
+            <div class="caption">
+                <!--<span class="caption" >LEMBRAR INFORMAÇÕES?</span>
+                <input type="checkbox" />-->
+                <!--<input class="botao" type="checkbox" id="checar" name="checar" value="INFORMAÇÕES">
+                <label for="checar">LEMBRAR INFORMAÇÕES?</label>-->
+                <label class="container">lembrar INFORMAÇÕES?</label>
+                <input type="checkbox" checked="cheked">
+
             </div>
             <div class="forgot-pass">
-                <a href="forgot.html" class="forgot-pass">Esqueceu sua senha?</a>
+                <a href="redefinirPag2.html" class="forgot-pass">Esqueceu sua senha?</a>
             </div>
             <div>
-                <button type="submit" class="button">ENTRAR</button>
+                <button type="submit" class="button">ENVIAR</button>
             </div>
+
         </form>
     </div>
 
