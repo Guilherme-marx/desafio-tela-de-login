@@ -29,7 +29,7 @@ h3 {
   font-size: 90px;
   font-family: 'Abril Fatface', cursive;
   font-weight: 100;
-  margin-bottom: 0.1em;
+  margin: 130px 0px 4px 0px;
   color: #23753c;
 }
 
@@ -76,7 +76,7 @@ form>* {
   height: auto;
   width: auto;
   font-size: 30px;
-  margin-left: 3cm;
+  margin-left: 6.1em;
   margin-top: 4em;
   border-radius: 40px;
   padding: 10px 20px;
@@ -94,9 +94,11 @@ form>* {
 label {
   font-weight: 500;
   opacity: 50%;
-  font-size: 15.6px;
-  cursor: pointer;
+  font-size: 18px;
+  margin-left: -85em;
+  margin-top: -1.66em;
 }
+
 
 
 .form_input {
@@ -108,7 +110,6 @@ label {
   border-radius: 0.2rem;
   width: 30em;
   border: none;
-  cursor: pointer;
   opacity: 85%;
 
 }
