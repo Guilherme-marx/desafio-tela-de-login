@@ -54,7 +54,6 @@ form>* {
 
 label {
   margin-top: 10px;
-
   padding: 10px 0px;
   color: rgb(68, 68, 68);
   display: block;
@@ -64,7 +63,7 @@ label {
 
 .forgot-pass {
   text-decoration: none;
-  color: #196406;
+  color: rgb(9, 80, 80);
   font-size: 15px;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 900;
