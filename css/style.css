@@ -37,12 +37,13 @@ p {
   font-size: 15px;
   font-weight: 300;
   margin-bottom: 4em;
-  margin-right: 95em;
-  margin-left: 0em;
+  margin-right: 86em;
+  margin-left: 0;
   color: #6e6e6e;
   font-family: 'Fira Sans Condensed', sans-serif;
   text-align: justify;
 }
+
 
 form>* {
   margin-bottom: 20px;
@@ -92,11 +93,14 @@ label {
 }
 
 /* remember me */
-.caption {
+label {
   font-weight: 500;
   opacity: 50%;
-  font-size: 15.6px;
+  font-size: 18px;
+  margin-left: -85em;
+  margin-top: -1.66em;
 }
+
 
 
 .form_input {
