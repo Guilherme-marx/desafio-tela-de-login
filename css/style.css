@@ -20,12 +20,13 @@ html {
 body {
   padding-left: 6em;
   /*background: linear-gradient(to right, #154e26, #1b6832, #5db136, #6ef04e);*/
-  background-image: url(/);
+  background-image: url(/fundo-login.png);
   background-repeat: no-repeat;
   background-size: 1300px 1170px;
   background-position-x: 46em;
 }
-body.container{
+
+body.container {
   display: block;
 }
 
