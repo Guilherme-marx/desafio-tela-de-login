@@ -66,18 +66,17 @@ label {
   font-weight: 500;
   font-size: 18px;
   font-weight: 900;
-  /* margin-left: -85em; */
-  margin-top: 3em;
 }
 
 
 label.botao {
-  padding: 10px 0px;
+  padding: 30px 0px;
   display: block;
   cursor: pointer;
   text-transform: uppercase;
 
 }
+
 
 /*_____________________________________________________________________________________input fantasma____________________________________________________________________________________________________________*/
 
