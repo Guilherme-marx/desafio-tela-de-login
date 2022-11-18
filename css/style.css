@@ -20,10 +20,11 @@ html {
 body {
   padding-left: 6em;
   /*background: linear-gradient(to right, #154e26, #1b6832, #5db136, #6ef04e);*/
-  background-image: url(/fundo-login.png);
+  background-image: url(/ENTRAR\ \(1\).png);
   background-repeat: no-repeat;
-  background-size: 1300px 1170px;
-  background-position-x: 46em;
+  /* background-size: 1300px 1170px;
+  background-position-x: 46em; */
+
 }
 
 body.container {
@@ -35,7 +36,7 @@ h3 {
   font-family: 'Abril Fatface', cursive;
   font-weight: 100;
   margin: 130px 0px 4px 0px;
-  color: #23753c;
+  color: #ffffff;
 }
 
 p {
@@ -44,7 +45,7 @@ p {
   margin-bottom: 4em;
   margin-right: 86em;
   margin-left: 0;
-  color: #6e6e6e;
+  color: #ffffff;
   font-family: 'Fira Sans Condensed', sans-serif;
   text-align: justify;
 }
@@ -62,17 +63,19 @@ form>* {
 /*_____________________________________________________________________________________input fantasma____________________________________________________________________________________________________________*/
 label {
   font-weight: 500;
-  opacity: 50%;
+  opacity: 90%;
+  color: #ffffff;
+  font-family: monospace;
+  font-weight: 500;
   font-size: 18px;
+  font-weight: 900;
   /* margin-left: -85em; */
-  margin-top: -1.66em;
+  margin-top: 3em;
 }
 
 
 label.botao {
-  margin-top: 10px;
   padding: 10px 0px;
-  color: rgb(68, 68, 68);
   display: block;
   cursor: pointer;
   text-transform: uppercase;
@@ -86,16 +89,17 @@ label.botao {
 
 
 .forgot-pass {
-  text-decoration: none;
-  color: rgb(9, 80, 80);
-  font-size: 15px;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+  font-family: monospace;
+  opacity: 80%;
   font-weight: 900;
+  margin-top: -1em;
 }
 
 /* submit */
 .button {
-  background: linear-gradient(to top, #31a252, #6ecf42);
+  background: #d54848;
   color: rgb(255, 255, 255);
   height: auto;
   width: auto;
@@ -107,23 +111,27 @@ label.botao {
   cursor: pointer;
   border: none;
   font-family: 'Abril Fatface', cursive;
+  transition: background 1s;
 }
 
-.button:hover {
+.button:hover,
+button:focus {
   cursor: pointer;
-  background: linear-gradient(to top, #6ecf42, #31a252);
+  background: #ff5e5e;
+  transform: scale(1.1);
 }
 
 .form_input {
   font-family: 'Roboto', sans-serif;
-  color: #ffffff;
-  background-color: #31a252;
+  color: #e81919;
+  background-color: #ffffff;
   font-size: 1em;
-  padding: 1em 1em;
+  padding: 1.3em 1.5em;
   border-radius: 0.2rem;
   width: 30em;
   border: none;
   opacity: 85%;
+  border-radius: 100em;
 
 }
 
@@ -131,7 +139,7 @@ label.botao {
 input::placeholder {
   font-weight: bold;
   opacity: 72%;
-  color: #ffffff;
+  color: #ef7474;
 }
 
 
@@ -142,12 +150,45 @@ input::placeholder {
 hr {
   width: 13.3cm;
   margin-left: 1px;
+  color: #ffffff;
 }
 
 /*________________________________________________________________________________________importante?____________________________________________________________________________________________________________*/
 
+.stars2 {
+  position: relative;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  box-shadow: 15px 15px white,
+    125px 35px white,
+    50px 80px white,
+    10px 120px white,
+    275px 90px white,
+    230px 10px white,
+    120px 130px white,
+    300px 130px white,
+    220px 115px white;
+  animation: anim-stars 20s linear infinite;
+}
 
-
+.stars2::after {
+  content: " ";
+  position: absolute;
+  top: 150px;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  box-shadow: 15px 15px white,
+    125px 35px white,
+    50px 80px white,
+    10px 120px white,
+    275px 90px white,
+    230px 10px white,
+    120px 130px white,
+    300px 130px white,
+    220px 115px white;
+}
 
 /* video */
 
