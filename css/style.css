@@ -27,9 +27,6 @@ body {
 
 }
 
-body.container {
-  display: block;
-}
 
 h3 {
   font-size: 90px;
