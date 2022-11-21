@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2? family= Lato:wght@300 & display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap');
 
+/* geral */
 
 html {
   width: 100%;
@@ -93,7 +94,7 @@ hr {
   cursor: pointer;
   border: none;
   font-family: 'Abril Fatface', cursive;
-  transition: background 1s;
+  transition: background 0.4s;
 }
 
 .button:hover,
@@ -139,6 +140,8 @@ hr {
   margin-left: 1px;
   color: #ffffff;
 }
+
+/* especifico */
 
 .number {
   font-family: 'Roboto', sans-serif;
