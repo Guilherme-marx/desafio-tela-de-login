@@ -29,14 +29,18 @@
                 <!-- area de validacao de codigo -->
                 <br>
                 <div class="form__group">
-                    <input type="password" class="form_input" id="name" placeholder="digite uma senha" required />
-                    <label for="name" class="form_label"></label>
+                    <label for="name" class="form_name">no minimo 8 caracteres</label>
+                    <br>
+                    <input type="password" class="form_input" id="name" data-ls-module="charCounter" minlength="8"
+                        placeholder="digite uma senha" required />
+
                 </div>
                 <br>
                 <div class="form__group">
-                    <input type="password" class="form_input" id="lastname" placeholder="digite a mesma senha"
-                        required />
-                    <label for="lastname" class="form_label"></label>
+                    <label for="lastname" class="form_name">digite a mesma senha</label>
+                    <br>
+                    <input type="password" class="form_input" id="lastname" data-ls-module="charCounter" minlength="8"
+                        placeholder="digite a mesma senha" required />
                 </div>
                 <div>
                     <button type="submit" class="button">rdefinir senha</button>
