@@ -77,6 +77,10 @@ label.botao {
 
 }
 
+hr {
+  margin-bottom: 4em;
+}
+
 
 
 /*_____________________________________________________________________________________input fantasma____________________________________________________________________________________________________________*/
@@ -87,11 +91,11 @@ label.botao {
 
 .forgot-pass {
   color: rgb(255, 255, 255);
-  font-size: 1.2em;
-  font-family: monospace;
+  font-size: 1.02em;
+  font-family: Arial, Helvetica, sans-serif;
   opacity: 80%;
   font-weight: 900;
-  margin-top: -1em;
+  margin-top: 1em;
 }
 
 /* submit */
@@ -114,7 +118,8 @@ label.botao {
 .button:hover,
 button:focus {
   cursor: pointer;
-  background: #ff5e5e;
+  background: #ffc0c0;
+  color: #d54848;
   transform: scale(0.96);
 }
 
@@ -148,6 +153,20 @@ hr {
   width: 13.3cm;
   margin-left: 1px;
   color: #ffffff;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+input:invalid+span::after {
+  content: "✖";
+  padding-left: 5px;
+}
+
+input:valid+span::after {
+  content: "✓";
+  padding-left: 5px;
 }
 
 /*________________________________________________________________________________________importante?____________________________________________________________________________________________________________*/
