@@ -18,27 +18,36 @@
             Digite o codigo de vfalidação que foi enviado para o se email.
 
         </p>
-        <form action="index.html" method="get" class="form">
-            <div class="form__group">
-                <input type="number" class="form_input" id="number" placeholder="digite o codigo" required="true" />
-                <label for="name" class="form_label"></label>
-            </div>
-            <br>
-            <div class="form__group">
-                <input type="password" class="form_input" id="name" placeholder="digite uma senha" required="true" />
-                <label for="name" class="form_label"></label>
-            </div>
-            <br>
-            <div class="form__group">
-                <input type="password" class="form_input" id="lastname" placeholder="digite a mesma senha"
-                    required="true" />
-                <label for="lastname" class="form_label"></label>
-            </div>
-            <div>
-                <button type="submit" class="button">voltar ao login</button>
-            </div>
+        <div>
+            <form action="index.html" method="get" class="form">
+                <div class="form__group">
+                    <input type="text" data-ls-module="charCounter" maxlength="4" id="number" class="number" required>
+                    <label for="name" class="form_label"></label>
+                    <h1>_ _ _ _ </h1>
+                </div>
+                <br>
+                <div class="form__group">
+                    <input type="password" class="form_input" id="name" placeholder="digite uma senha" required />
+                    <label for="name" class="form_label"></label>
+                </div>
+                <br>
+                <div class="form__group">
+                    <input type="password" class="form_input" id="lastname" placeholder="digite a mesma senha"
+                        required />
+                    <label for="lastname" class="form_label"></label>
+                </div>
+                <div>
+                    <button type="submit" class="button">voltar ao login</button>
+                </div>
 
-        </form>
+            </form>
+            <!-- <span class="valid"></span>
+
+placeholder="Digite o codigo"     --- rferente ao inpu de codigo de validação
+
+
+            <span class="invalid"></span> -->
+        </div>
     </div>
 </body>
 
