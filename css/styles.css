@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Lato:wght@300 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap');
+
+/* geral */
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    padding-left: 6em;
+    /*background: linear-gradient(to right, #154e26, #1b6832, #5db136, #6ef04e);*/
+    background-image: url(/ENTRAR\ \(1\).png);
+    background-repeat: no-repeat;
+    /* background-size: 1300px 1170px; */
+    /* background-position-x: 46em; */
+}
+
+
+h3 {
+    font-size: 90px;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 100;
+    margin: 130px 0px 4px 0px;
+    color: #ffffff;
+}
+
+p {
+    font-size: 1.1em;
+    font-weight: 300;
+    margin-bottom: 4em;
+    margin-right: 86em;
+    margin-left: 0;
+    color: #ffffff;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-align: justify;
+}
+
+
+form>* {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: 500;
+    opacity: 90%;
+    color: #ffffff;
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+
+label.botao {
+    padding: 30px 0px;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+hr {
+    margin-bottom: 4em;
+}
+
+
+
+.forgot-pass {
+    color: rgb(255, 255, 255);
+    font-size: 1.02em;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 80%;
+    font-weight: 900;
+    margin-top: 1em;
+}
+
+/* submit */
+.button {
+    background: #d54848;
+    color: rgb(255, 255, 255);
+    height: auto;
+    width: auto;
+    font-size: 30px;
+    margin-left: 6.1em;
+    margin-top: 4em;
+    border-radius: 40px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Abril Fatface', cursive;
+    transition: background 0.4s;
+}
+
+.button:hover,
+button:focus {
+    cursor: pointer;
+    background: #ffc0c0;
+    color: #d54848;
+    transform: scale(0.96);
+}
+
+.form_input {
+    font-family: 'Roboto', sans-serif;
+    color: #e81919;
+    background-color: #ffffff;
+    font-size: 1em;
+    padding: 1.3em 1.5em;
+    border-radius: 0.2rem;
+    width: 30em;
+    border: none;
+    opacity: 85%;
+    border-radius: 100em;
+
+}
+
+
+input::placeholder {
+    font-weight: bold;
+    opacity: 72%;
+    color: #ef7474;
+}
+
+
+
+/*_____________________________________________________________________________________________________________importante?____________________________________________________________________________________________________________________*/
+/*_____________________________________________________________________________________________________________importante?____________________________________________________________________________________________________________________*/
+/*_____________________________________________________________________________________________________________importante?____________________________________________________________________________________________________________________*/
+/*_____________________________________________________________________________________________________________importante?____________________________________________________________________________________________________________________*/
+/*_____________________________________________________________________________________________________________importante?____________________________________________________________________________________________________________________*/
+
+
+hr {
+    width: 13.3cm;
+    margin-left: 1px;
+    color: #ffffff;
+}
+
+/* especifico */
+
+.number {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: transparent;
+    font-size: 1em;
+    padding: 1.3em 1.5em;
+    /* border-radius: 0.2rem; */
+    width: 30em;
+    border: none;
+    /* border-radius: 100em; */
+    letter-spacing: 1.27em;
+    width: 7.5em;
+
+}
+
+.number::placeholder {
+    color: white;
+    letter-spacing: 0;
+}
+
+h1 {
+    color: white;
+    margin-top: -1.67em;
+    margin-left: 22.9px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.form_name {
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 0.98em;
+}
+
+/*_____________________________________________________________________________________________________________importante?____________________________________________________________________________________________________________________*/
+/*_____________________________________________________________________________________________________________importante?____________________________________________________________________________________________________________________*/
+/*_____________________________________________________________________________________________________________importante?____________________________________________________________________________________________________________________*/
+/*_____________________________________________________________________________________________________________importante?____________________________________________________________________________________________________________________*/
+/*_____________________________________________________________________________________________________________importante?____________________________________________________________________________________________________________________*/
+
+
+/* e este é  meu projeto, ele serviu apenas para teste, mas contou muito para aprendizado na pratica. Muito obrigado pla sua atenção ate aqui, tenha uma otima semana!git commi -m "mudanç */
+
+
+
+
+/* cores */
+/*
+
+paleta 1
+.color1 { #f23e02 };
+.color2 { #fef5c8 };
+.color3 { #00988d };
+.color4 { #2c6b74 };
+.color5 { #013750 };
+
+
+
+paleta 2
+.color1 { #f8f8ec };
+.color2 { #aedd2b };
+.color3 { #066699 };
+.color4 { #0a5483 };
+.color5 { #02416d };
+
+
+
+paleta 3
+.color1 { #69d2e7 };
+.color2 { #a7dbd8 };
+.color3 { #e0e4cc };
+.color4 { #f38630 };
+.color5 { #fa6900 };
+
+
+
+paleta 4
+.color1 { #cc063e };
+.color2 { #e83535 };
+.color3 { #fd9407 };
+.color4 { #e2d9c2 };
+.color5 { #10898b };
+
+
+
+paleta 5
+.color1 { #4275B3 };
+.color2 { #91C3FF };
+.color3 { #78B4FF };
+.color4 { #B38430 };
+.color5 { #FFCF78 };
+
+
+
+paleta 6
+.color1 { #B38B42 };
+.color2 { #FFD991 };
+.color3 { #FFCF77 };
+.color4 { #306AB3 };
+.color5 { #78B3FF };
+*/
+
+
+/*     fontes extras
+
+font-family: 'Poiret One', cursive;
+font-family: 'Yeseva One', cursive; 
+
+*/
