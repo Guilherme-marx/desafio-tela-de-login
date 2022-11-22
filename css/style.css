@@ -187,7 +187,21 @@ h1 {
 
 /* e este é  meu projeto, ele serviu apenas para teste, mas contou muito para aprendizado na pratica. Muito obrigado pla sua atenção ate aqui, tenha uma otima semana!git commi -m "mudanç */
 
+/* .c-loader {
+  animation: is-rotating 1s infinite;
+  border: 6px solid #e5e5e5;
+  border-radius: 50%;
+  border-top-color: #68a3fa;
+  height: 50px;
+  width: 50px;
+  margin-left: 14.5em;
+}
 
+@keyframes is-rotating {
+  to {
+    transform: rotate(1turn);
+  }
+} */
 
 
 /* cores */
