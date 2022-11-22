@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="/img/verificado.png">
     <title>esquece a senha</title>
 </head>
@@ -16,17 +16,42 @@
         <h3 style="font-size:65px;">REDEFINIR</h3>
         <h3 style="margin-top: -53px;">SENHA!</h3>
         <p>
-            para redefinir sua senha será enviado um codigo de verificação para o email informado abaixo
-        </p>
-        <form action="redefinirPag1.html" method="get" class="form">
-            <div class="form__group" style="margin-top: 3em; margin-bottom: -4em;">
-                <input type="email" class="form_input" id="email" placeholder="digite seu email" required="true" />
-            </div>
-            <div>
-                <button type="submit" class="button">receber codigo</button>
-            </div>
+            Digite o codigo de validação que foi enviado para o seu email.
 
-        </form>
+        </p>
+        <div>
+            <form action="index.html" method="get" class="form">
+                <!-- area de validacao de codigo -->
+                <div class="form__group">
+                    <label for="name" class="form_name" style="margin: 0em 1em 0em 0.9em;">digite o codigo
+                        enviado</label>
+                    <br>
+                    <input type="text" data-ls-module="charCounter" maxlength="4" id="number" class="number" required>
+                    <h1>_ _ _ _ </h1>
+                </div>
+                <!-- area de validacao de codigo -->
+                <br>
+                <div class="form__group">
+                    <label for="name" class="form_name">no minimo 8 caracteres</label>
+                    <br>
+                    <input type="password" class="form_input" id="name" data-ls-module="charCounter" minlength="8"
+                        placeholder="digite uma senha" required />
+
+                </div>
+                <br>
+                <div class="form__group">
+                    <label for="lastname" class="form_name">digite a mesma senha</label>
+                    <br>
+                    <input type="password" class="form_input" id="lastname" data-ls-module="charCounter" minlength="8"
+                        placeholder="digite a mesma senha" required />
+                </div>
+                <div>
+                    <button type="submit" class="button">redefinir senha</button>
+                </div>
+
+            </form>
+            <!--placeholder="Digite o codigo"     --- rferente ao inpu de codigo de validação-->
+        </div>
     </div>
 </body>
 
