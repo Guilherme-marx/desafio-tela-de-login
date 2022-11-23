@@ -3,6 +3,117 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 
+
+body {
+    margin: 0;
+}
+
+h1 {
+    align-items: center;
+    text-align: justify;
+    font-family: 'Nabla', cursive;
+    font-weight: 400;
+    font-size: 5em;
+    color: #fff;
+}
+
+p {
+    align-items: center;
+    text-align: justify;
+    /* font-family: 'Coming Soon', cursive; */
+    font-weight: 900;
+    font-size: 1.1em;
+    color: #fff;
+    margin-top: -2em;
+}
+
+hr {
+    margin: 4em 2em;
+    /* background-color: #f4a943;
+    border-color: #f4a943; */
+    /* height: 2px;
+    border-radius: 9em; */
+}
+
+a {
+    color: #fff;
+}
+
+.container {
+    /* border: 1px solid red; */
+    height: 99.8vh;
+    display: flex;
+}
+
+.apresentation-login {
+    border: 2px solid yellow;
+    width: 40%;
+    background: rgb(7, 122, 104);
+    background: radial-gradient(circle, rgba(7, 122, 104, 1) 0%, rgba(0, 31, 19, 1) 93%);
+    /* background: ; */
+
+}
+
+
+.image-login {
+    border: 2px solid blue;
+    background-color: transparent;
+    width: 60%;
+    background: rgb(122, 228, 174);
+    /* background: radial-gradient(circle, rgba(122, 228, 174, 1) 30%, rgba(55, 148, 101, 1) 30%, rgba(90, 193, 141, 1) 42%,
+            rgba(19, 135, 77, 1) 42%, rgba(47, 185, 117, 1) 50%, rgba(22, 94, 58, 1) 50%,
+            rgba(29, 128, 79, 1) 57%, rgba(0, 9, 5, 1) 57%, rgba(2, 25, 22, 1) 64%); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.content-login {
+    margin: 0 10rem;
+}
+
+.form {
+    width: 100%;
+    /* border: 2px solid rgb(255, 0, 136); */
+}
+
+.form_input {
+    width: 93.2%;
+    padding: 1.4em 1em;
+    margin-top: 2em;
+    border-radius: 1em;
+    border: none;
+    /* background: radial-gradient(circle, #ffd363 0%, #b47405 86%);
+    color: rgb(253, 253, 253); */
+    font-weight: 700;
+    font-size: 1em;
+
+
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 1em;
+}
+
+.sub-info {
+    /* border: 2px solid #fff; */
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 0.9em;
+}
+
+.caption {
+    margin-top: -1.4em;
+    margin-left: 15.89em;
+}
+
+.button:active {
+    top: 2px;
+    position: relative;
+}
+
 .btn-grad {
     background-image: linear-gradient(to right, #F09819 0%, #EDDE5D 51%, #F09819 100%);
     margin: 4em 0em 0em 9em;
@@ -21,12 +132,13 @@
     border-width: 5px;
     border-style: outset;
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 
 }
 
 .btn-grad:hover {
     background-position: right center;
-    /* change the direction of the change here */
+    /* /* change the direction of the change here */
     color: rgb(164, 101, 0);
     font-size: 1em;
     font-weight: 800;
