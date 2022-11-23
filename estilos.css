@@ -1,3 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+.btn-grad {
+    background-image: linear-gradient(to right, #F09819 0%, #EDDE5D 51%, #F09819 100%);
+    margin: 4em 0em 0em 9em;
+    height: auto;
+    padding: 1em 4em;
+    width: auto;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(164, 101, 0);
+    font-size: 1em;
+    font-weight: 800;
+    border-radius: 1em;
+    border-color: #f6db71;
+    border-width: 5px;
+    border-style: outset;
+    cursor: pointer;
+
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: rgb(164, 101, 0);
+    font-size: 1em;
+    font-weight: 800;
+    text-decoration: none;
+    border-color: #f6db71;
+    border-width: 5px;
+    border-style: outset;
+}

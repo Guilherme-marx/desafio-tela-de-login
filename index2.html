@@ -13,28 +13,6 @@
         margin: 0;
     }
 
-    .container {
-        border: 1px solid red;
-        height: 99.8vh;
-        display: flex;
-    }
-
-    .apresentation-login {
-        border: 1px solid green;
-        width: 40%;
-        background: rgb(63, 225, 251);
-        background: radial-gradient(circle, rgba(63, 225, 251, 1) 0%, rgba(70, 113, 252, 1) 100%);
-
-    }
-
-    .image-login {
-        border: 2px solid blue;
-        width: 60%;
-        background-image: url("/img/senha.jpg");
-        background-size: 90%;
-        background-repeat: no-repeat;
-    }
-
     h1 {
         align-items: center;
         text-align: justify;
@@ -54,7 +32,40 @@
         margin-top: -2em;
     }
 
+    hr {
+        margin: 4em 2em;
+        background-color: #f4a943;
+        border-color: #f4a943;
+        height: 2px;
+        border-radius: 9em;
+    }
 
+    a {
+        color: #0046ea;
+        border: 1px solid rgb(255, 255, 255);
+    }
+
+    .container {
+        border: 1px solid red;
+        height: 99.8vh;
+        display: flex;
+    }
+
+    .apresentation-login {
+        /* border: 1px solid green; */
+        width: 40%;
+        background: rgb(63, 225, 251);
+        background: radial-gradient(circle, rgba(63, 225, 251, 1) 0%, rgba(70, 113, 252, 1) 100%);
+
+    }
+
+    .image-login {
+        border: 2px solid blue;
+        width: 60%;
+        /* background-image: url("/img/senha.jpg");
+        background-size: 90%; */
+        background-repeat: no-repeat;
+    }
 
     .content-login {
         margin: 0 10rem;
@@ -66,14 +77,23 @@
     }
 
     .form_input {
-        width: 100%;
-        padding: 1em 0em;
+        width: 93.2%;
+        padding: 1.4em 1em;
         margin-top: 2em;
+        border-radius: 1em;
+        border: none;
+        background-color: #ffc53d;
+        color: rgb(212, 134, 0);
+    }
 
+    input::placeholder {
+        color: rgb(212, 134, 0);
+        font-weight: 900;
+        font-size: 1.3em;
     }
 
     .sub-info {
-        border: 2px solid #fff;
+        /* border: 2px solid #fff; */
         color: #fff;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 800;
@@ -81,21 +101,31 @@
     }
 
     .forgot-pass {
-        margin-left: 9.8em;
-        margin-top: -1.2em;
+
+        border: 1px solid rgb(17, 0, 128);
+        background-color: #c843f4;
     }
 
     .caption {
         margin-top: 2em;
     }
 
-    button {
+    .button:active {
+        top: 2px;
+        position: relative;
+    }
+
+    /* button {
         margin: 4em 0em 0em 11em;
         height: auto;
         padding: 1em 4em;
         width: auto;
-        background: radial-gradient(#f4a943, #fac25b);
-    }
+        background: radial-gradient(circle, rgb(250, 248, 109) 0%, rgb(254, 166, 23) 100%);
+        border-radius: 0.5em;
+        border-width: 4px;
+        border-color: #f4a943;
+        cursor: pointer;
+    } */
 </style>
 
 <body>
@@ -115,7 +145,7 @@
                 </div>
                 <div>
                     <form action="log.html" method="get" class="form">
-                        <div clssa="form__group">
+                        <div clssa="form__imaggroup">
                             <input type="email" class="form_input" id="email" placeholder="digite seu email" required />
                         </div>
                         <div>
@@ -125,15 +155,16 @@
 
                         <div class="sub-info">
                             <hr>
+                            <div class="forgot-pass">
+                                <a href="#" class="forgot-pass">ESQUECEU A SENHA?</a>
+                            </div>
                             <div class="caption">
                                 <label for="checar">LEMBRAR INFORMAÇÕES?</label>
                                 <input class="botao" type="checkbox" id="checar" name="checar" value="INFORMAÇÕES">
                             </div>
-                            <div class="forgot-pass">
-                                <a href="#" class="forgot-pass">ESQUECEU A SENHA?</a>
-                            </div>
+
                             <div>
-                                <button type="submit" class="custom-btn btn-12">ENTRAR</button>
+                                <button type="submit" class="btn-grad">ENTRAR</button>
                             </div>
                         </div>
                     </form>
