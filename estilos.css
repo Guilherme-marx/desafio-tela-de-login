@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 
 
 
@@ -12,7 +13,7 @@ h1 {
     align-items: center;
     text-align: justify;
     font-family: 'Nabla', cursive;
-    font-weight: 400;
+    font-weight: 900;
     font-size: 5em;
     color: #fff;
 }
@@ -20,19 +21,19 @@ h1 {
 p {
     align-items: center;
     text-align: justify;
-    /* font-family: 'Coming Soon', cursive; */
-    font-weight: 900;
-    font-size: 1.1em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: 0.8em;
     color: #fff;
     margin-top: -2em;
 }
 
 hr {
     margin: 4em 2em;
-    /* background-color: #f4a943;
-    border-color: #f4a943; */
-    /* height: 2px;
-    border-radius: 9em; */
+    background-color: #f4a943;
+    border-color: #f4a943;
+    height: 2px;
+    border-radius: 9em;
 }
 
 a {
@@ -40,7 +41,7 @@ a {
 }
 
 .container {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     height: 99.8vh;
     display: flex;
 }
@@ -49,9 +50,7 @@ a {
     border: 2px solid yellow;
     width: 40%;
     background: rgb(7, 122, 104);
-    background: radial-gradient(circle, rgba(7, 122, 104, 1) 0%, rgba(0, 31, 19, 1) 93%);
-    /* background: ; */
-
+    background: radial-gradient(circle, rgba(29, 128, 79, 1) 0%, rgba(0, 31, 19, 1) 60%);
 }
 
 
@@ -59,10 +58,10 @@ a {
     border: 2px solid blue;
     background-color: transparent;
     width: 60%;
-    background: rgb(122, 228, 174);
-    /* background: radial-gradient(circle, rgba(122, 228, 174, 1) 30%, rgba(55, 148, 101, 1) 30%, rgba(90, 193, 141, 1) 42%,
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(122, 228, 174, 1) 30%, rgba(55, 148, 101, 1) 30%, rgba(90, 193, 141, 1) 42%,
             rgba(19, 135, 77, 1) 42%, rgba(47, 185, 117, 1) 50%, rgba(22, 94, 58, 1) 50%,
-            rgba(29, 128, 79, 1) 57%, rgba(0, 9, 5, 1) 57%, rgba(2, 25, 22, 1) 64%); */
+            rgba(29, 128, 79, 1) 17%, rgba(0, 31, 19, 1) 76%);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -73,7 +72,7 @@ a {
 
 .form {
     width: 100%;
-    /* border: 2px solid rgb(255, 0, 136); */
+    border: 2px solid rgb(255, 0, 136);
 }
 
 .form_input {
@@ -82,8 +81,8 @@ a {
     margin-top: 2em;
     border-radius: 1em;
     border: none;
-    /* background: radial-gradient(circle, #ffd363 0%, #b47405 86%);
-    color: rgb(253, 253, 253); */
+    /* background: radial-gradient(circle, #ffd363 0%, #b47405 86%); */
+    /* color: rgb(253, 253, 253); */
     font-weight: 700;
     font-size: 1em;
 
@@ -91,13 +90,13 @@ a {
 }
 
 input::placeholder {
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
     font-weight: 900;
     font-size: 1em;
 }
 
 .sub-info {
-    /* border: 2px solid #fff; */
+    border: 2px solid #fff;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
@@ -106,7 +105,7 @@ input::placeholder {
 
 .caption {
     margin-top: -1.4em;
-    margin-left: 15.89em;
+    margin-left: 15.8em;
 }
 
 .button:active {
@@ -132,13 +131,12 @@ input::placeholder {
     border-width: 5px;
     border-style: outset;
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
 
 }
 
 .btn-grad:hover {
     background-position: right center;
-    /* /* change the direction of the change here */
     color: rgb(164, 101, 0);
     font-size: 1em;
     font-weight: 800;
@@ -147,3 +145,12 @@ input::placeholder {
     border-width: 5px;
     border-style: outset;
 }
+
+/* .circulo {
+    width: 18em;
+    height: 18em;
+    border-radius: 50%;
+    background: rgb(115, 212, 196);
+    background: radial-gradient(circle, rgba(115, 212, 196, 1) 10%, rgba(37, 168, 123, 1) 19%, rgba(4, 105, 71, 1) 20%, transparent, transparent, transparent, transparent, transparent, transparent, transparent);
+    margin: 2em;
+} */
